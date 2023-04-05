@@ -34,17 +34,17 @@ const CustomerOtp = () => {
         
       </button>
       
-      <Form.Group className="w-[88px] [border:none] bg-[transparent] absolute top-[643px] left-[442px]">
-        <Form.Control type="text" placeholder="Digit1" />
+      <Form.Group className="w-[88px] [border:none] bg-[transparent] absolute top-[643px] left-[442px] ">
+        <Form.Control type="text" placeholder="Digit1" min="1" max="9" />
       </Form.Group>
       <Form.Group className="w-[88px] [border:none] bg-[transparent] absolute top-[643px] left-[600px]">
-        <Form.Control type="text" placeholder="Digit2" />
+        <Form.Control type="text" placeholder="Digit2" min="1" max="9"  />
       </Form.Group>
       <Form.Group className="w-[88px] [border:none] bg-[transparent] absolute top-[643px] left-[895px]">
-        <Form.Control type="text" placeholder="Digit4" />
+        <Form.Control type="text" placeholder="Digit4" min="1" max="9"  />
       </Form.Group>
       <Form.Group className="w-[88px] [border:none] bg-[transparent] absolute top-[643px] left-[730px]">
-        <Form.Control type="text" placeholder="DIgit3" />
+        <Form.Control type="text" placeholder="DIgit3" min="1" max="9"  />
       </Form.Group>
       
       <button 
